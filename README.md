@@ -4,32 +4,23 @@
 [GitHub](https://github.com/etnitz) [LinkedIn](https://www.linkedin.com/in/ethan-nitz-5822a112/)
 ***
 ### ***Description***
+I am creating a place for car aficionados to meet up and discuss cars and all things cars! This is just the beginning, so this readMe will be updated as I get it up and running.
 ***
 ### ***Technologies Used***
-    1. Item 1
-    2. Item 2
-        *Sub-item
-        *Sub-Item
-    3. Item 3
-        *Sub-Item
-    4. Item 4
-    5. Item 5 
+    1. HTML
+    2. CSS
+    3. JS
+    4. Mongoose
+    5. Express
+    6. React
+    7. Node
 ***
 ### ***Getting Started***
 ***
 ### ***Screenshots***
-#### **Buggy Picture**
-![Buggy Picture](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.brisbaneinsects.com%2Fbrisbane_lygaeoidbugs%2Fimages%2FDSC_6666.jpg&f=1&nofb=1)
-#### **Another Bug**
-![Another bug issue](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.business.qld.gov.au%2F__data%2Fassets%2Fimage%2F0023%2F266414%2Fvarieties%2F165wh.jpg&f=1&nofb=1)
-#### **Last Bug**
-![Last Bug](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.otsukare.info%2Fimages%2F20160205-bug-04.png&f=1&nofb=1)
-***
+
 ### ***Future Updates***
- - [ ] Future Update 1
- - [ ] Future Update 2
- - [x] Completed Update
- - [x] ~~Strikethrough~~ Items Also
+
 ***
 ### ***Credits***
 #### **Images:** [DuckDuckGo](https://duckduckgo.com/)
