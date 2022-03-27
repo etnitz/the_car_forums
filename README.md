@@ -5,7 +5,7 @@
 ***
 ### ***Description***
 I am creating a place for car aficionados to meet up and discuss cars and all things cars! This is just the beginning, so this readMe will be updated as I get it up and running. 
-+++
+
 [Trello_Board](https://trello.com/b/fQGe6B4O/thecarforums)
 ***
 ### ***Technologies Used***
@@ -19,6 +19,7 @@ I am creating a place for car aficionados to meet up and discuss cars and all th
 ***
 ### ***Getting Started***
 [Trello_Board](https://trello.com/b/fQGe6B4O/thecarforums) 
+
 This is just the beginning. There is going to be a database to hold the user's post and a car themed frontend for the user to interact with.
 ***
 ### ***Screenshots***
