@@ -34,7 +34,7 @@ This is just the beginning. There is going to be a database to hold the user's p
  - [ ] Backend
 ***
 ### ***Credits***
-#### **Charts:** [lucid](https://www.lucidchart.com)
+#### **Charts:** [lucidchart.com](https://www.lucidchart.com)
 #### **Trello Board:** [trello.com](https://trello.com)
 #### **Markdown Guide:** [ia.net](https://ia.net/writer/support/general/markdown-guide)
 #### **Markdown Cheatsheet:** [GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
