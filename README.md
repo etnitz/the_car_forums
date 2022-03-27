@@ -21,6 +21,10 @@ I am creating a place for car aficionados to meet up and discuss cars and all th
 [Trello_Board](https://trello.com/b/fQGe6B4O/thecarforums) 
 
 This is just the beginning. There is going to be a database to hold the user's post and a car themed frontend for the user to interact with.
+
+#### **ERD:** [ERD](https://lucid.app/lucidchart/249fa9dc-74ff-4175-89b5-9b40810347e3/edit?invitationId=inv_29ac0db4-0271-4e18-a513-036f2777dc2a)
+
+#### **CHD:** [CHD](https://lucid.app/lucidchart/abb69da1-a47b-4a85-b5de-6cf2bd17e23e/edit?invitationId=inv_866e9a96-c5da-4cd8-92c8-45507a6f5e2c)
 ***
 ### ***Screenshots***
 
@@ -30,6 +34,7 @@ This is just the beginning. There is going to be a database to hold the user's p
  - [ ] Backend
 ***
 ### ***Credits***
+#### **Charts:** [lucid](https://www.lucidchart.com)
 #### **Trello Board:** [trello.com](https://trello.com)
 #### **Markdown Guide:** [ia.net](https://ia.net/writer/support/general/markdown-guide)
 #### **Markdown Cheatsheet:** [GitHub](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
