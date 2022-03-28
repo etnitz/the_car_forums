@@ -1,0 +1,20 @@
+{
+  "name": "the_car_forums",
+  "version": "1.0.0",
+  "description": "[GitHub](https://github.com/etnitz) [LinkedIn](https://www.linkedin.com/in/ethan-nitz-5822a112/) *** ### ***Description*** I am creating a place for car aficionados to meet up and discuss cars and all things cars! This is just the beginning, so this readMe will be updated as I get it up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etnitz/the_car_forums.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etnitz/the_car_forums/issues"
+  },
+  "homepage": "https://github.com/etnitz/the_car_forums#readme"
+}
