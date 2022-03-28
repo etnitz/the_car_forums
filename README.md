@@ -9,13 +9,9 @@ I am creating a place for car aficionados to meet up and discuss cars and all th
 [Trello_Board](https://trello.com/b/fQGe6B4O/thecarforums)
 ***
 ### ***Technologies Used***
-    1. HTML
-    2. CSS
-    3. JS
-    4. Mongoose
-    5. Express
-    6. React
-    7. Node
+![Programing Languages](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/103827197/original/cb380c47fe8c75aff569b6afd91769850805b20a/help-you-with-your-html-css-javascript-projects.png) 
+
+![MERN](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgeeksperhour.com%2Fwp-content%2Fuploads%2F2019%2F02%2Fmern-img.png&f=1&nofb=1)
 ***
 ### ***Getting Started***
 [Trello_Board](https://trello.com/b/fQGe6B4O/thecarforums) 
