@@ -1,4 +1,5 @@
 const Post = require('../models/post')
+const Topic = require('../models/topic')
 
 const createPost = async (req, res) => {
     try {
@@ -42,7 +43,7 @@ const updatePost = async (req, res) => {
                 res.status(500).send(err);
             }
             if (!post) {
-                res.status(500).send('Plant not found!');
+                res.status(500).send('Post not found!');
             }
             return res.status(200).json(post);
         })
