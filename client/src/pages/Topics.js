@@ -1,13 +1,16 @@
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
-import PostForm from '../components/PostForm'
+
 
 
 const Topics = () => {
     return (
-        <div className='review-page'>
+        <div className='topics-page'>
             <Header />
             <section>
-                <PostForm />
+                <Link to='/cars'><button className='topics-button'>
+                Cars Topic
+                </button></Link> 
             </section>
         </div>
     )

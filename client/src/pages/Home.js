@@ -7,11 +7,8 @@ const Home = () => {
         <div className='home'>
             <h1 className='title'>Welcome to the car forums!</h1>
         <Link to='/topics'><button className='home-button'>
-            Read Topics
+            View Topics
         </button></Link>
-        <Link to='/read'><button className='home-button'>
-            Create a post
-        </button></Link>   
     </div> 
     )
     

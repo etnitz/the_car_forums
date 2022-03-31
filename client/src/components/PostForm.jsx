@@ -8,18 +8,18 @@ const PostForm = () => {
 
     const handleChange = (event) => {
         const target = event.target.value;
-        setName(target);
+        setPostTitle(target);
         console.log(target)
     }
 
     const handleChange2 = (event) => {
         const target = event.target.value;
-        setDesc(target);
+        setPostContent(target);
     }
 
     const handleChange3 = (event) => {
         const target = event.target.value;
-        setRating(target)
+        setPostAuthor(target)
     }
 
     function handleSubmit(e) {

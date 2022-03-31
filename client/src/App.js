@@ -6,8 +6,8 @@ import Topics from './pages/Topics'
 
 const App = () => {
   const makeApiCall = async () => {
-    let res = await axios.get('http://localhost:3001/reviews')
-    console.log(res.data.reviews)
+    let res = await axios.get('http://localhost:3001/posts')
+    console.log(res.data.posts)
   }
   makeApiCall();
   return (
