@@ -5,6 +5,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 const createPosts = async () => {
     const posts = [{
+        title: 'Aston Martin DB6',
         content: "This car is awesome!",
         author: "CarDude5000",
     }
