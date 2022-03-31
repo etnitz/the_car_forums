@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom'
+import axios from 'axios'
 import './styles/App.css';
 
-function App() {
+const App = () => {
+  const makeApiCall = async () => {
+    let res = await axios.get('http://localhost:3001/reviews')
+    console.log(res.data.reviews)
+  }
+  makeApiCall();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      </Routes>
     </div>
   );
 }

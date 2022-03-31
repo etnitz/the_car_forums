@@ -1,9 +1,9 @@
 const TopicCard = (props) => {
 
     return (
-        <div className="revCard">
-            <h3>{props.username} <strong>{props.rate}</strong></h3>
-            <p>{props.desc}</p>
+        <div className="topicCard">
+            <h3>{props.title} </h3>
+            <p>{props.post}</p>
             
         </div>
     )
