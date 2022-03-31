@@ -3,6 +3,7 @@ import axios from 'axios'
 import './styles/App.css'
 import Home from './pages/Home'
 import Topics from './pages/Topics'
+import Cars from './pages/Cars'
 
 const App = () => {
   const makeApiCall = async () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
       <Route index element={<Home />} />
       <Route path='/topics' element={<Topics />} />
+      <Route path='/cars' element={<Cars />}/>
       </Routes>
     </div>
   );

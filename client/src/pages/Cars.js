@@ -25,9 +25,9 @@ const Read = () => {
                 {posts.map((post) => (
                     <PostCard
                         key={post._id}
-                        username={post.title}
-                        desc={post.content}
-                        rate={post.author}
+                        title={post.title}
+                        content={post.content}
+                        author={post.author}
                         {...post}
                     />
                 ))}
