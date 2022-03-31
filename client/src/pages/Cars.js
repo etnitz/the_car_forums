@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Header from '../components/Header'
 import PostCard from '../components/PostCard'
+import PostForm from '../components/PostForm'
 
 
 const Read = () => {
@@ -22,6 +23,7 @@ const Read = () => {
             <section>
                 <h1 className='rec'>Cars</h1>
                 <div className='postContainer'>
+                <PostForm />
                 {posts.map((post) => (
                     <PostCard
                         key={post._id}
