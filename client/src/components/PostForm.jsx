@@ -50,7 +50,7 @@ const PostForm = () => {
                 </li>
                 <li>
                     <label for="postAuthor">Author</label>
-                    <input type="text" name="PostAuthor" onChange={handleChange3}/>
+                    <input type="text" name="PostAuthor" onChange={handleChange3} maxlength="100" />
                     <span>Give yourself a name</span>
                 </li>
                 <li>
