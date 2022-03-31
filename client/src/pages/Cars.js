@@ -1,16 +1,40 @@
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 import Header from '../components/Header'
-import PostForm from '../components/PostForm'
+import PostCard from '../components/PostCard'
 
 
-const CarsPost = () => {
+const Read = () => {
+    const [posts, setPosts] = useState([])
+
+    useEffect(() => {
+        const makeApiCall = async () => {
+        let res = await axios.get('http://localhost:3001/posts')
+        setPosts(res.data.posts)
+        }   
+        makeApiCall()
+    }, [])
+    
+
     return (
-        <div className='cars'>
+        <div>
             <Header />
             <section>
-                <PostForm />
+                <h1 className='rec'>Cars</h1>
+                <div className='postContainer'>
+                {posts.map((post) => (
+                    <PostCard
+                        key={post._id}
+                        username={post.title}
+                        desc={post.content}
+                        rate={post.author}
+                        {...post}
+                    />
+                ))}
+                </div>
             </section>
         </div>
     )
 }
 
-export default CarsPost
+export default Read

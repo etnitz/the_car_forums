@@ -1,7 +1,7 @@
-const TopicCard = (props) => {
+const PostCard = (props) => {
 
     return (
-        <div className="topicCard">
+        <div className="postCard">
             <h3>{props.title} </h3>
             <p>{props.content}</p>
             <h4>{props.author}</h4>            
@@ -9,4 +9,4 @@ const TopicCard = (props) => {
     )
 }
 
-export default TopicCard
+export default PostCard
