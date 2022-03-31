@@ -49,9 +49,9 @@ const PostForm = () => {
                         <span>Write your post here</span>
                 </li>
                 <li>
-                    <label for="rating">Rating</label>
-                    <input type="number" name="Rating" onChange={handleChange3}/>
-                    <span>Give a rating from 1 being bad to 5 living in paradise</span>
+                    <label for="postAuthor">Author</label>
+                    <input type="text" name="PostAuthor" onChange={handleChange3}/>
+                    <span>Give yourself a name</span>
                 </li>
                 <li>
                     <button className='form-layout-button'>Submit</button>
