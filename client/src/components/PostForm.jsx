@@ -1,10 +1,10 @@
 import axios from 'axios'
 import { useState } from 'react'
 
-const Form = () => {
-    const [name, setName] = useState('')
-    const [desc, setDesc] = useState('')
-    const [rating, setRating] = useState(0)
+const PostForm = () => {
+    const [postTitle, setPostTitle] = useState('')
+    const [postContent, setPostContent] = useState('')
+    const [postAuthor, setPostAuthor] = useState('')
 
     const handleChange = (event) => {
         const target = event.target.value;
@@ -29,24 +29,24 @@ const Form = () => {
             data: {
                 title: postTitle,
                 content: postContent,
-                author: postName
+                author: postAuthor
             }
         })
     }
 
     return (
         <form class="form-layout" onSubmit={(e) => handleSubmit(e)}>
-            <h1>Car Forum Post</h1>
+            <h1>Create a Post</h1>
             <ul>
                 <li>
                     <label for="PostTitle">Title</label>
                     <input type="text" name="PostTitle" onChange={handleChange} maxlength="100" />
-                        <span>Enter your username</span>
+                        <span>Give your post a title</span>
                 </li>
                 <li>
-                    <label for="description">Description</label>
-                    <input type="text" name="Description" onChange={handleChange2} maxlength="100" />
-                        <span>Enter how you feel about our amusement park</span>
+                    <label for="postContent">Post</label>
+                    <input type="text" name="PostContent" onChange={handleChange2} maxlength="100" />
+                        <span>Write your post here</span>
                 </li>
                 <li>
                     <label for="rating">Rating</label>
@@ -61,4 +61,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default PostForm
