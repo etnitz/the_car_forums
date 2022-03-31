@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import axios from 'axios'
-import './styles/App.css';
+import './styles/App.css'
+import Home from './pages/Home'
+import Topics from './pages/Topics'
 
 const App = () => {
   const makeApiCall = async () => {
@@ -11,6 +13,8 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
+      <Route index element={<Home />} />
+      <Route path='/topics' element={<Topics />} />
       </Routes>
     </div>
   );
