@@ -1,5 +1,5 @@
 const { Post }  = require('../models')
-const { Topic } = require('../models')
+
 
 const createPost = async (req, res) => {
     try {
