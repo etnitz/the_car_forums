@@ -35,7 +35,7 @@ const PostForm = () => {
     }
 
     return (
-        <form class="form-layout" onSubmit={(e) => handleSubmit(e)}>
+        <form class="post-form" onSubmit={(e) => handleSubmit(e)}>
             <h1>Create a Post</h1>
             <ul>
                 <li>
@@ -54,7 +54,7 @@ const PostForm = () => {
                     <span>Give yourself a name</span>
                 </li>
                 <li>
-                    <button className='form-layout-button'>Submit</button>
+                    <button className='form-button'>Submit</button>
                 </li>
             </ul>
         </form>

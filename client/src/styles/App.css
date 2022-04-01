@@ -37,7 +37,36 @@
   }
 }
 
-.header {
+body {
   background-color: #282c34;
   font-family: 'Racing Sans One', cursive;
+  color: rgb(245, 56, 9);
+}
+
+
+.nav {
+  display: inline;
+  text-align: left;
+  color: white;
+  padding: 0 10px 0 10px;
+  text-decoration-line: none;
+  font-size: large;
+  font-weight: 600;
+}
+.topic-title {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: fit-content;
+  margin: 0 0 0 0;
+}
+
+.form-layout {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 2px;
+  padding: 20px;
+  border-radius: 1rem;
+  background-color: #516EFE;
+  box-shadow: 10px 5px 5px #7e7e81e0;
 }
