@@ -61,12 +61,75 @@ body {
   margin: 0 0 0 0;
 }
 
-.form-layout {
+.post-form {
   max-width: 400px;
   margin: 50px auto;
   border-radius: 2px;
   padding: 20px;
   border-radius: 1rem;
-  background-color: #516EFE;
-  box-shadow: 10px 5px 5px #7e7e81e0;
+}
+
+
+.post-form h1 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    font-size: x-large;
+}
+
+.post-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-form li {
+  display: block;
+  padding: 9px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.post-form li:last-child {
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.post-form li>label {
+  display: block;
+  float: left;
+  margin-top: -19px;
+  height: 14px;
+  padding: 2px 5px 2px 5px;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.post-form input[type="text"],
+.post-form select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+
+
+
+.form-layout li>span {
+  display: block;
+  padding: 3px;
+  margin: 0 -9px -9px -9px;
+  text-align: center;
+  color: white;
+  font-size: 11px;
 }
