@@ -21,9 +21,8 @@ const Read = () => {
         <div>
             <Header />
             <section>
-                <h1 className='rec'>Cars</h1>
+                <h1 className='cars'>Cars</h1>
                 <div className='postContainer'>
-                <PostForm />
                 {posts.map((post) => (
                     <PostCard
                         key={post._id}
@@ -33,6 +32,7 @@ const Read = () => {
                         {...post}
                     />
                 ))}
+                <PostForm />
                 </div>
             </section>
         </div>

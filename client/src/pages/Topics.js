@@ -11,6 +11,9 @@ const Topics = () => {
                 <Link to='/cars'><button className='topics-button'>
                 Cars Topic
                 </button></Link> 
+                <Link to='/racing'><button className='topics-button'>
+                Racing Topic
+                </button></Link> 
             </section>
         </div>
     )

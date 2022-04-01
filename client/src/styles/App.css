@@ -53,13 +53,8 @@ body {
   font-size: large;
   font-weight: 600;
 }
-.topic-title {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  width: fit-content;
-  margin: 0 0 0 0;
-}
+
+
 
 .post-form {
   max-width: 400px;
@@ -68,7 +63,6 @@ body {
   padding: 20px;
   border-radius: 1rem;
 }
-
 
 .post-form h1 {
     display: block;
@@ -123,13 +117,28 @@ body {
     padding: 0;
 }
 
-
-
-.form-layout li>span {
+.post-form li>span {
   display: block;
   padding: 3px;
   margin: 0 -9px -9px -9px;
   text-align: center;
   color: white;
   font-size: 11px;
+}
+
+.postCard {
+  height: 150px;
+  width: 500px;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid white;
+}
+
+.postContainer {
+  display: grid;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  gap: 10px 20px;
+  
 }
