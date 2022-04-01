@@ -129,6 +129,7 @@ body {
 .postCard {
   height: 150px;
   width: 500px;
+  padding-bottom: 75px;
   font-size: 1.25rem;
   border-radius: 1rem;
   border: 1px solid white;
