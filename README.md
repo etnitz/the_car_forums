@@ -26,8 +26,9 @@ This is just the beginning. There is going to be a database to hold the user's p
 
 ***
 ### ***Future Updates***
- - [ ] Frontend
- - [ ] Backend
+get delete and update working
+let users post pictures
+
 ***
 ### ***Credits***
 #### **Charts:** [lucidchart.com](https://www.lucidchart.com)

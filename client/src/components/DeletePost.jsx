@@ -1,17 +1,25 @@
 import axios from 'axios'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 
 const DeletePost = () => {
-    function handleSubmit(e) {
-        axios({
-            url: "http://localhost:3001/posts/:id",
-            method: 'delete',
-            data: {
-                title: postTitle,
-                content: postContent,
-                author: postAuthor,
-                _id: postId
-            }
-        })
-    }
+    const [selectedPost, setPost] = useState('')
+    let { id } = useParams()
+
+    useEffect(() => {
+        let selectedPost = props.posts.find(
+            (post) => post.id === parseInt(id)
+        )
+        setPost(selectedPost)
+    }, [props.post, id])
+    
+    useEffect(() => {
+        const makeApiCall = async () => {
+        let res = await axios.delete('http://localhost:3001/posts/:id')
+        setPosts(res.data.posts)
+        }   
+        makeApiCall()
+    }, [])
 }
+
+export default DeletePost
