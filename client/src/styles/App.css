@@ -140,5 +140,17 @@ body {
   width: fit-content;
   margin: auto;
   gap: 10px 20px;
-  
+}
+
+.buttons {
+  position: relative;
+  margin: 25px;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  background-color: rgb(245, 56, 9);
 }

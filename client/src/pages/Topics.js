@@ -8,10 +8,10 @@ const Topics = () => {
         <div className='topics-page'>
             <Header />
             <section>
-                <Link to='/cars'><button className='topics-button'>
+                <Link to='/cars'><button className='buttons'>
                 Cars Topic
                 </button></Link> 
-                <Link to='/racing'><button className='topics-button'>
+                <Link to='/racing'><button className='buttons'>
                 Racing Topic
                 </button></Link> 
             </section>

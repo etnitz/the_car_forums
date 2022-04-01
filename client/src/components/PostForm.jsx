@@ -54,7 +54,7 @@ const PostForm = () => {
                     <span>Give yourself a name</span>
                 </li>
                 <li>
-                    <button className='form-button'>Submit</button>
+                    <button className='buttons'>Submit</button>
                 </li>
             </ul>
         </form>
